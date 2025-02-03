@@ -92,7 +92,7 @@ function App() {
                 <h2 className="text-white/90 text-sm font-medium mb-1">
                   {progress === 100 ? 'Update Installed' : 'Secure Update Available'}
                 </h2>
-                <p className="text-white/40 text-xs">Version 2.1.0</p>
+                <p className="text-white/40 text-xs">Official Release</p>
               </div>
               {progress === 100 ? (
                 <Check className="w-5 h-5 text-green-400" strokeWidth={1} />
